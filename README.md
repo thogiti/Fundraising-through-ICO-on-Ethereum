@@ -1,4 +1,4 @@
-# Practical fundraising for your business using Token Sale ICO (Initial Coin Offering)
+# Practical fundraising for your business using Token Sale ICO 首次代币发售 (Initial Coin Offering)
 
 
 This is a course created originally for the members of MIT FinTech members, SFA (Singapore FinTech Association) members. It will be open to all for learning.
