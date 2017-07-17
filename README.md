@@ -26,7 +26,7 @@ How to market an ICO?
 
 Which factors are important for a successful ICO?
 
-## For investors:
+## For Investors:
 
 What is an ICO?
 
