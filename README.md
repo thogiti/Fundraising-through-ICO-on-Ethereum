@@ -6,7 +6,7 @@ This is a course created originally for the members of MIT FinTech members, SFA 
 Part I will address below class of questions.
 Part II will cover a design, implementation, deployment and execution of an ICO on Ethereum Testnet blockchain.
 
-## If you are suffering below questions:
+## If you are suffering from below questions:
 
 Are Token Sale ICO disrupting VC finding?
 
