@@ -1,17 +1,17 @@
-pragma solidity 0.4.8;
+pragma solidity 0.4.11;
 
-contract token { function transfer(address receiver, uint amount){  }
-                 function mintToken(address target, uint mintedAmount){  }
+contract token { function transfer(address /*receiver*/, uint /*amount*/){  }
+                 function mintToken(address /*target*/, uint /*mintedAmount*/){  }
                 }
 
-contract CrowdSale {
+contract EITOTokenICO {
     enum State {
         Fundraising,
         Failed,
         Successful,
         Closed
     }
-    State public state = State.Fundraising; 
+    State public state = State.Fundraising;
 
     struct Contribution {
         uint amount;
@@ -20,18 +20,17 @@ contract CrowdSale {
     Contribution[] contributions;
 
 
-
-    uint public totalRaised;
-    uint public currentBalance;
-    uint public deadline;
-    uint public completedAt;
-    uint public priceInWei;
-    uint public fundingMinimumTargetInWei;
-    uint public fundingMaximumTargetInWei;
-    token public tokenReward;
-    address public creator;
-    address public beneficiary;
-    string campaignUrl;
+    uint public totalRaised; //total funds raised
+    uint public currentBalance; //tracker for current balance
+    uint public deadline; //time deadline
+    uint public completedAt; //timing for completion
+    uint public priceInWei; //price in Wei
+    uint public fundingMinimumTargetInWei; //minimum ICO funding requirement
+    uint public fundingMaximumTargetInWei; //maximum ICO funding requirement
+    token public tokenReward; //token swap as reward
+    address public creator; //ICO creator
+    address public beneficiary;  //ICO beneficiary
+    string campaignUrl; //An external URL for ICO marketing campaign
     byte constant version = 1;
 
 
@@ -75,8 +74,8 @@ contract CrowdSale {
     }
 
 
-    function CrowdSale(
-        uint _timeInMinutesForFundraising,
+    function EITOTokenICO(
+        uint _timeInMinutesForFundraising, //timing limitation for ICO
         string _campaignUrl,
         address _ifSuccessfulSendTo,
         uint _fundingMinimumTargetInEther,
