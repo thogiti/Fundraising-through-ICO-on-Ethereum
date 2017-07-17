@@ -6,7 +6,7 @@ This is a course created originally for the members of MIT FinTech members, SFA 
 Part I will address below class of questions.
 Part II will cover a design, implementation, deployment and execution of an ICO on Ethereum Testnet blockchain.
 
-If you are suffering below questions:
+## If you are suffering below questions:
 
 Are Token Sale ICO disrupting VC finding?
 
@@ -26,7 +26,7 @@ How to market an ICO?
 
 Which factors are important for a successful ICO?
 
-For investors:
+## For investors:
 
 What is an ICO?
 
@@ -40,7 +40,7 @@ How can I secure myself from malicious ICO?
 
 How can I make money out of it?
 
-For Developers:
+## For Developers:
 
 How do we create a sandbox for building our ICO on Ethereum
 
@@ -50,6 +50,6 @@ What Ethereum concepts do we need to build our ICO
 
 How do we create our Asset Token smart contract
 
-How do we create our Corwdsale smart contract
+How do we create our ICO Corwdsale smart contract
 
 How do we deploy and execute our ICO
